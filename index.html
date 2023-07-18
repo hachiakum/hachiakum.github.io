@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>במקום הכי עקום בתל אביב</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+    </head>
+    <body>
+		<div class="center">
+		   <h1>במקום הכי עקום בתל אביב</h1>
+    <div class="game">
+       <img id="image" draggable="false" alt="Image">
+
+       <div id="correct">✅︎ ישר!︎</div>
+       <div id="incorrect">❌ עקום!</div>
+
+
+       <div id="caption_story">
+      <span id="caption"></span>
+
+       <span id="story_link"><a href="#" id="original_story">(למדור המקורי)</a></span>
+
+     </div>
+
+       <div id="buttons">
+
+       <p id="reset" class="btn" onclick="resetImage()">אתחול</p>
+
+        <p id="another_image" class="btn" onclick="setRandomImage();resetImage();">עוד תמונה</p>
+
+      </div>
+
+    </div>
+    <div class="instructions">
+      <h3>הוראות</h3>
+      <p>
+המדור
+<a href="https://www.haaretz.co.il/literature/tarbut-sifrot/tlvlist">״רשימות תל אביביות״</a>
+מאת אברהם בלבן הוא המדור המוצלח ביותר במוסף תרבות וספרות אם לא בעיתון הארץ כולו. כולנו עוקבים בשקיקה אחר מסעותיו השבועיים של הגיבור אברהם בלבן וידידיו האדריכל עמי שנער, האגרונום אהרון מנירום, החוקרת שולה וידריך, והמגיבים המסורים ברטה ומיכה כרמון.
+    </p>
+      <p>
+המדור מלווה בתמונותיה של הצלמת המוכשרת אביבה עין-גיל, שלמרבה הצער נוטה להחזיק את המצלמה באלכסון ולצלם תמונות עקומות. האם מדובר בבחירה אמנותית? בחצובה שהשתבשה? לא משנה. בעזרת טכנולוגיית הפלס™ המתקדמת, משחק זה יאתגר אתכם, הקוראים המסורים, בתיקון ויישור המעוות. בכל אחת מהתמונות שיוצגו כאן וצולמו ע״י אביבה עין-גיל, ויש לסובב את התמונה בזווית הנכונה.
+      </p>
+      <p>
+        לחלופין, ניתן לשחק בגירסת האקסטרים ופשוט לסובב את התמונות כאוות נפשכם. אצלנו אין חוקים. בהצלחה!
+      </p>
+    </div>
+    </div>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="game.js" /></script>
+
+    </body>
+</html>
